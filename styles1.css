@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5bc0de; /* Vibrant blue background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #fff; /* White background for stopwatch container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 400px; /* Limit width for better readability */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color for display */
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #f0ad4e; /* Vibrant yellow button background */
+    color: white; /* White text color for buttons */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ec971f; /* Darker shade of yellow on hover */
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lap {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #d9edf7; /* Light blue background for laps */
+    border-radius: 5px;
+}
